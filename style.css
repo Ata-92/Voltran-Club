@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    font-family: tahoma;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+    background-color: #F63232;
+    padding: 20px;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+h1 {
+    color: #fff;
+    border: 10px solid white;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+section img {
+    width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 108.4px;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0px;
+    background-color: #F4F4F4;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font-size: 24px;
+    margin: 10px 60px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#jointheclub {
+    color: #F63232;
+}
+
+main {
+    margin: auto;
+    width: 70%;
+}
+
+main article h2 {
+    font-size: 48px;
+    color: #F63232;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+main article p {
+    font-size: 18px;
+    line-height: 2;
+    /* text-align: justify; */
+}
+
+main article p span {
+    font-weight: bold;
+}
+
+main ul {
+    margin-top: 90px;
+}
+
+main ul li {
+    display: inline;
+    margin: 0px;
+    padding: 0px 30px;
+    position: relative;
+}
+
+main ul li:hover {
+    bottom: 10px;
+}
+
+#jointoday {
+    margin-top: 90px;
+    background-color: #F4F4F4;
+    padding: 60px 0px 90px;
+    text-align: center
+}
+
+#jointoday h2 {
+    font-size: 36px;
+}
+
+#jointoday p {
+    font-size: 18px;
+}
+
+#mail {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;  
+}
+
+#click {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #000;
+    border: 5px solid #71D300;
+    background-color: #F4F4F4;  
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;    
+}
